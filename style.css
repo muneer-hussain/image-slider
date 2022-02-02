@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 100vw;
+    height: 60vh;
+}
+
+.images {
+    display: none;
+}
+
+.arrow {
+    font-weight: 900;
+    font-size: 70px;
+    position: absolute;
+    top: 25%;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 30px;
+}
+
+.next {
+    right: 30px;
+}
+
+.caption {
+    position: relative;
+    bottom: 55px;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #fff;
+    font-size: 30px;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .image {
+        height: 35vh;
+        width: 100vw;
+    }
+    .arrow {
+        display: relative;
+        top: 12%;
+        font-size: 50px;
+    }
+}
